@@ -39,7 +39,7 @@ const SignUp = () => {
     <div className="full-screen-container">
       <div className="login-container" id="loginContainer">
         <h1 className="login-title">Sign Up</h1>
-        <form className="form my-4" id="signupForm" onSubmit={handleSubmit}>
+        <form className="form" id="signupForm" onSubmit={handleSubmit}>
           {/* Signup form content */}
           <div className="input-group">
             <label htmlFor="name">Name</label>
