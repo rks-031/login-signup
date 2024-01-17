@@ -21,7 +21,7 @@ const SignUp = () => {
     }
 
     axios
-      .post("http://localhost:3000/register", {
+      .post("http://localhost:3001/register", {
         name,
         email,
         phoneNumber,
